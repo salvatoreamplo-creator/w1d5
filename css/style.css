@@ -5,6 +5,10 @@ body img {
   margin-left: auto;
   margin-right: auto;
 }
+
+main section img:first-of-type {
+  border-radius: 20px;
+}
 header {
   background: url("../images/banner.jpg") center center/cover no-repeat,
     rgb(13, 129, 111);
@@ -22,10 +26,52 @@ header {
 header a {
   border-bottom: orangered dashed 1px;
 }
+
 h1 {
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #091bba;
+  font: open sans;
   font-size: 2.5em;
   margin-bottom: 10px;
   text-align: center;
+}
+p {
+  color: #111111;
+  font-family: "monserrat", sans-serif;
+  font-size: 1.65em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+div {
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 900px;
+  text-align: center;
+  background-color: red;
+}
+div h1 {
+  color: white;
+  font-family: "monserrat", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+div p {
+  color: white;
+  font-family: "monserrat", sans-serif;
+  font-size: 1.65em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+a img {
+  border-radius: 303px;
+}
+
+footer {
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 900px;
+  text-align: center;
+  background-color: #c8e7f0;
 }
